@@ -1,0 +1,40 @@
+.searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1c1b22;
+    padding: 15px 30px;
+    border-bottom: 3px solid #594ef7;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.searchbar .search {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 14px;
+    border: 1px solid #d7dbe6;
+    border-radius: 4px;
+}
+
+.searchbar .search input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.searchbar .profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.searchbar .profile img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}

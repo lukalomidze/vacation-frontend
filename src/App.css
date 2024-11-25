@@ -1,0 +1,58 @@
+#root {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+table {
+    width: 100%;
+    overflow: auto;
+    background: #fff;
+    border-radius: 8px;
+    border-collapse: separate;
+}
+
+table h5 {
+    font-weight: 400;
+    font-size: 13px;
+    color: #787d8d;
+}
+
+tr {
+    border-bottom: 1px solid #eef0f3;
+}
+
+th {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    background: #F9FAFB;
+    text-align: center;
+    padding: 15px;
+}
+
+td {
+    padding: 10px 15px;
+    text-align: center;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: 20px;
+}
+
+form *:last-child {
+    grid-column: span 2;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 24px;
+}
