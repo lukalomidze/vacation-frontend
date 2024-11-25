@@ -18,7 +18,7 @@ Example authentication data for testing:
 
 Password for every existing employee/administrator is `password`
 
-For the sake of consistent starting point during testing only an in-memory database is used
+For the sake of consistent starting point during testing, only an in-memory database is used
 
 If testing locally, include `VITE_BACKEND_URL` in a `.env` file located at root directory
 
