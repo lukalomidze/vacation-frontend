@@ -1,8 +1,23 @@
-# React + Vite
+# Vacation Control System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Vacation Control System app for a Software Engineering class
 
-Currently, two official plugins are available:
+Features include:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Vacation request
+2. Approving/rejecting vacations by administrator/supervisor
+3. Register new employee as an administrator
+4. Inspect employee data as an admin/supervisor
+
+Utilizes Spring Security for authentication and Spring Data Jpa for database interactions
+
+Example authentication data for testing:
+1. Admin: admin@ribas.pt
+2. Supervisor: ilamboll@ribas.pt
+3. Employee: cpreon@ribas.pt
+
+Password for every existing employee/administrator is password
+
+For the sake of consistent starting point during testing only an in-memory database is used
+
+Demo: https://vacation.ashyflower-3312f080.germanywestcentral.azurecontainerapps.io
