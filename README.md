@@ -16,7 +16,7 @@ Example authentication data for testing:
 2. Supervisor: ilamboll@ribas.pt
 3. Employee: cpreon@ribas.pt
 
-Password for every existing employee/administrator is password
+Password for every existing employee/administrator is `password`
 
 For the sake of consistent starting point during testing only an in-memory database is used
 
